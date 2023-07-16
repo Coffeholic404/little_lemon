@@ -5,6 +5,7 @@
 .app__aboutus-overlay {
     position: absolute;
     inset: 0;
+    background: var(--color-white);
 }
 
 .app__aboutus-overlay img {
@@ -24,17 +25,21 @@
     justify-content: flex-end;
     align-items: flex-end;
     flex-direction: column;
-
+    margin-bottom: 7rem;
     text-align: right;
 }
+.app__aboutus-content_about p {
+    font-size: 1.2rem;
+}
+
 
 .app__aboutus-content_knife {
     margin: 2rem 15rem;
 }
 
-.app__aboutus-content_knife img {
+/* .app__aboutus-content_knife img {
     height: 910px;
-}
+} */
 
 .app__aboutus-content_history {
     flex: 1;
@@ -46,6 +51,9 @@
     text-align: left;
 }
 
+.app__aboutus-content_history p{
+    font-size: 1.2rem;
+}
 .app__aboutus-content_about p,
 .app__aboutus-content_history p {
     margin: 2rem 0;
@@ -77,5 +85,6 @@
     .app__aboutus-overlay img {
         width: 80%;
         height: 320px;
+        margin-bottom: 3rem;
     }
 }

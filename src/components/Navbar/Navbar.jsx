@@ -33,7 +33,7 @@ function Navbar () {
         <div className="app__navbar-login">
         <a href="#login" className="p__opensans">Log In</a>
         <div></div>
-        <a href="/" className="p__opensans" id="reservation">Reservation</a>
+        <a href="/" className="p__opensans" id="registration">Registration</a>
         </div>
         <div className="app__navbar-smallscreen">
         <GiHamburgerMenu fontSize={27} onClick={()=> setToggleMenu(true)}/>
